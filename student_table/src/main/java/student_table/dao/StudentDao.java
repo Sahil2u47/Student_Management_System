@@ -37,9 +37,9 @@ public class StudentDao {
 	                System.out.println("Database connected and table created successfully.");
 	            }
 	        } catch (ClassNotFoundException e) {
-	            System.err.println("H2 Driver not found: " + e.getMessage());
+	            System.out.println("H2 Driver not found: " + e.getMessage());
 	        } catch (SQLException e) {
-	            System.err.println("Database connection error: " + e.getMessage());
+	            System.out.println("Database connection error: " + e.getMessage());
 	            e.printStackTrace();
 	        }
 	    }

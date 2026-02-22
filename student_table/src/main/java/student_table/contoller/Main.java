@@ -1,8 +1,6 @@
-package student_table.connection;
+package student_table.contoller;
 
 import java.util.Scanner;
-
-import student_table.contoller.StudentController;
 
 
 public class Main {
